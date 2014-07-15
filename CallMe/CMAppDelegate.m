@@ -49,20 +49,31 @@
     NSData *requestBodyData = [stringData dataUsingEncoding:NSUTF8StringEncoding];
     request.HTTPBody = requestBodyData;
     
-    // Create url connection and fire request
+    // Create url connection and fire request, passing ourselves as the response delegate
     NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
+{
+	NSLog(@"From ReceivedResponse");
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
+{
+	NSLog(@"From ReceiveData");
+}
+
+- (void) connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
+{
+    NSLog(@"Connection failed! Error - %@ %@",
+          [error localizedDescription],
+          [[error userInfo] objectForKey:NSErrorFailingURLStringKey]);
+}
+
+-(void) connectionDidFinishLoading:(NSURLConnection *)connection
+{
     
 }
 
