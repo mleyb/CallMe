@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5D35AB21975AF7600A8CB8D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D35AB11975AF7600A8CB8D /* Cocoa.framework */; };
+		F5D35ABC1975AF7600A8CB8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5D35ABA1975AF7600A8CB8D /* InfoPlist.strings */; };
+		F5D35ABE1975AF7600A8CB8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D35ABD1975AF7600A8CB8D /* main.m */; };
+		F5D35AC21975AF7600A8CB8D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F5D35AC01975AF7600A8CB8D /* Credits.rtf */; };
+		F5D35AC51975AF7600A8CB8D /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D35AC41975AF7600A8CB8D /* CMAppDelegate.m */; };
+		F5D35AC81975AF7600A8CB8D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D35AC61975AF7600A8CB8D /* MainMenu.xib */; };
+		F5D35ACA1975AF7600A8CB8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D35AC91975AF7600A8CB8D /* Images.xcassets */; };
+		F5D35AD11975AF7600A8CB8D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D35AD01975AF7600A8CB8D /* XCTest.framework */; };
+		F5D35AD21975AF7600A8CB8D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D35AB11975AF7600A8CB8D /* Cocoa.framework */; };
+		F5D35ADA1975AF7600A8CB8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5D35AD81975AF7600A8CB8D /* InfoPlist.strings */; };
+		F5D35ADC1975AF7600A8CB8D /* CallMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D35ADB1975AF7600A8CB8D /* CallMeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5D35AD31975AF7600A8CB8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D35AA61975AF7600A8CB8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D35AAD1975AF7600A8CB8D;
+			remoteInfo = CallMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5D35AAE1975AF7600A8CB8D /* CallMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D35AB11975AF7600A8CB8D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F5D35AB41975AF7600A8CB8D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F5D35AB51975AF7600A8CB8D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F5D35AB61975AF7600A8CB8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5D35AB91975AF7600A8CB8D /* CallMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CallMe-Info.plist"; sourceTree = "<group>"; };
+		F5D35ABB1975AF7600A8CB8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5D35ABD1975AF7600A8CB8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5D35ABF1975AF7600A8CB8D /* CallMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CallMe-Prefix.pch"; sourceTree = "<group>"; };
+		F5D35AC11975AF7600A8CB8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F5D35AC31975AF7600A8CB8D /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
+		F5D35AC41975AF7600A8CB8D /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
+		F5D35AC71975AF7600A8CB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F5D35AC91975AF7600A8CB8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5D35ACF1975AF7600A8CB8D /* CallMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D35AD01975AF7600A8CB8D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F5D35AD71975AF7600A8CB8D /* CallMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CallMeTests-Info.plist"; sourceTree = "<group>"; };
+		F5D35AD91975AF7600A8CB8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5D35ADB1975AF7600A8CB8D /* CallMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallMeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D35AAB1975AF7600A8CB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D35AB21975AF7600A8CB8D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D35ACC1975AF7600A8CB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D35AD21975AF7600A8CB8D /* Cocoa.framework in Frameworks */,
+				F5D35AD11975AF7600A8CB8D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5D35AA51975AF7600A8CB8D = {
+			isa = PBXGroup;
+			children = (
+				F5D35AB71975AF7600A8CB8D /* CallMe */,
+				F5D35AD51975AF7600A8CB8D /* CallMeTests */,
+				F5D35AB01975AF7600A8CB8D /* Frameworks */,
+				F5D35AAF1975AF7600A8CB8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D35AAF1975AF7600A8CB8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D35AAE1975AF7600A8CB8D /* CallMe.app */,
+				F5D35ACF1975AF7600A8CB8D /* CallMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D35AB01975AF7600A8CB8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5D35AB11975AF7600A8CB8D /* Cocoa.framework */,
+				F5D35AD01975AF7600A8CB8D /* XCTest.framework */,
+				F5D35AB31975AF7600A8CB8D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5D35AB31975AF7600A8CB8D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5D35AB41975AF7600A8CB8D /* AppKit.framework */,
+				F5D35AB51975AF7600A8CB8D /* CoreData.framework */,
+				F5D35AB61975AF7600A8CB8D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F5D35AB71975AF7600A8CB8D /* CallMe */ = {
+			isa = PBXGroup;
+			children = (
+				F5D35AC31975AF7600A8CB8D /* CMAppDelegate.h */,
+				F5D35AC41975AF7600A8CB8D /* CMAppDelegate.m */,
+				F5D35AC61975AF7600A8CB8D /* MainMenu.xib */,
+				F5D35AC91975AF7600A8CB8D /* Images.xcassets */,
+				F5D35AB81975AF7600A8CB8D /* Supporting Files */,
+			);
+			path = CallMe;
+			sourceTree = "<group>";
+		};
+		F5D35AB81975AF7600A8CB8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5D35AB91975AF7600A8CB8D /* CallMe-Info.plist */,
+				F5D35ABA1975AF7600A8CB8D /* InfoPlist.strings */,
+				F5D35ABD1975AF7600A8CB8D /* main.m */,
+				F5D35ABF1975AF7600A8CB8D /* CallMe-Prefix.pch */,
+				F5D35AC01975AF7600A8CB8D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5D35AD51975AF7600A8CB8D /* CallMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D35ADB1975AF7600A8CB8D /* CallMeTests.m */,
+				F5D35AD61975AF7600A8CB8D /* Supporting Files */,
+			);
+			path = CallMeTests;
+			sourceTree = "<group>";
+		};
+		F5D35AD61975AF7600A8CB8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5D35AD71975AF7600A8CB8D /* CallMeTests-Info.plist */,
+				F5D35AD81975AF7600A8CB8D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D35AAD1975AF7600A8CB8D /* CallMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D35ADF1975AF7600A8CB8D /* Build configuration list for PBXNativeTarget "CallMe" */;
+			buildPhases = (
+				F5D35AAA1975AF7600A8CB8D /* Sources */,
+				F5D35AAB1975AF7600A8CB8D /* Frameworks */,
+				F5D35AAC1975AF7600A8CB8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallMe;
+			productName = CallMe;
+			productReference = F5D35AAE1975AF7600A8CB8D /* CallMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5D35ACE1975AF7600A8CB8D /* CallMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D35AE21975AF7600A8CB8D /* Build configuration list for PBXNativeTarget "CallMeTests" */;
+			buildPhases = (
+				F5D35ACB1975AF7600A8CB8D /* Sources */,
+				F5D35ACC1975AF7600A8CB8D /* Frameworks */,
+				F5D35ACD1975AF7600A8CB8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D35AD41975AF7600A8CB8D /* PBXTargetDependency */,
+			);
+			name = CallMeTests;
+			productName = CallMeTests;
+			productReference = F5D35ACF1975AF7600A8CB8D /* CallMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D35AA61975AF7600A8CB8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					F5D35ACE1975AF7600A8CB8D = {
+						TestTargetID = F5D35AAD1975AF7600A8CB8D;
+					};
+				};
+			};
+			buildConfigurationList = F5D35AA91975AF7600A8CB8D /* Build configuration list for PBXProject "CallMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5D35AA51975AF7600A8CB8D;
+			productRefGroup = F5D35AAF1975AF7600A8CB8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D35AAD1975AF7600A8CB8D /* CallMe */,
+				F5D35ACE1975AF7600A8CB8D /* CallMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D35AAC1975AF7600A8CB8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D35ABC1975AF7600A8CB8D /* InfoPlist.strings in Resources */,
+				F5D35ACA1975AF7600A8CB8D /* Images.xcassets in Resources */,
+				F5D35AC21975AF7600A8CB8D /* Credits.rtf in Resources */,
+				F5D35AC81975AF7600A8CB8D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D35ACD1975AF7600A8CB8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D35ADA1975AF7600A8CB8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D35AAA1975AF7600A8CB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D35AC51975AF7600A8CB8D /* CMAppDelegate.m in Sources */,
+				F5D35ABE1975AF7600A8CB8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D35ACB1975AF7600A8CB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D35ADC1975AF7600A8CB8D /* CallMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5D35AD41975AF7600A8CB8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D35AAD1975AF7600A8CB8D /* CallMe */;
+			targetProxy = F5D35AD31975AF7600A8CB8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5D35ABA1975AF7600A8CB8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D35ABB1975AF7600A8CB8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5D35AC01975AF7600A8CB8D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D35AC11975AF7600A8CB8D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F5D35AC61975AF7600A8CB8D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D35AC71975AF7600A8CB8D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F5D35AD81975AF7600A8CB8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D35AD91975AF7600A8CB8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5D35ADD1975AF7600A8CB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F5D35ADE1975AF7600A8CB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F5D35AE01975AF7600A8CB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallMe/CallMe-Prefix.pch";
+				INFOPLIST_FILE = "CallMe/CallMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5D35AE11975AF7600A8CB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallMe/CallMe-Prefix.pch";
+				INFOPLIST_FILE = "CallMe/CallMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F5D35AE31975AF7600A8CB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CallMe.app/Contents/MacOS/CallMe";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallMe/CallMe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CallMeTests/CallMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F5D35AE41975AF7600A8CB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CallMe.app/Contents/MacOS/CallMe";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallMe/CallMe-Prefix.pch";
+				INFOPLIST_FILE = "CallMeTests/CallMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D35AA91975AF7600A8CB8D /* Build configuration list for PBXProject "CallMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D35ADD1975AF7600A8CB8D /* Debug */,
+				F5D35ADE1975AF7600A8CB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D35ADF1975AF7600A8CB8D /* Build configuration list for PBXNativeTarget "CallMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D35AE01975AF7600A8CB8D /* Debug */,
+				F5D35AE11975AF7600A8CB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5D35AE21975AF7600A8CB8D /* Build configuration list for PBXNativeTarget "CallMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D35AE31975AF7600A8CB8D /* Debug */,
+				F5D35AE41975AF7600A8CB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5D35AA61975AF7600A8CB8D /* Project object */;
+}
